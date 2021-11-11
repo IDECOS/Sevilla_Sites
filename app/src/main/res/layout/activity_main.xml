@@ -8,13 +8,19 @@
     android:gravity="center"
     tools:context=".MainActivity">
     <TextView
-        android:text="BASILICA"
+        android:text="BASILICA SAN LUIS GONZAGA"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content"/>
     <ImageView
-        android:src="@drawable/Basilica"
+        android:src="@drawable/basilica"
         android:layout_width="300dp"
         android:layout_height="300dp" />
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Su diseño arquitectónico es tipo neogótico, cuya característica es la monumentalidad de las construcciones religiosas, las columnas que terminan en el techo en forma de ojivas, figura geométrica formada por dos arcos de medio círculo simétricos que se cortan en los extremos; esa era la particularidad de la arquitectura gótica. Su fachada principal es de 20 metros de ancha y lleva tres grandes portalones, una esbelta torre de 55 metros de elevación, las paredes laterales tienen 58 metros de largas y van formadas por amplios ventanales en forma ojival."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:text="DESCRIPCION"
